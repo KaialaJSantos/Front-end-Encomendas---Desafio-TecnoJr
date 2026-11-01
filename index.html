@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Café da Marta — café coado, pão de queijo e bolos caseiros por encomenda.">
+  <title>Café da Marta | Café, pão de queijo e bolos caseiros</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="header">
+    <a class="logo" href="#inicio" aria-label="Café da Marta - início">
+      <span class="logo-cup" aria-hidden="true">☕</span>
+      <span>
+        <strong>Café da Marta</strong>
+        <small>feito com carinho</small>
+      </span>
+    </a>
+
+    <nav class="nav" aria-label="Navegação principal">
+      <a href="#cardapio">Cardápio</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#horario">Horário</a>
+      <a href="#localizacao">Onde estamos</a>
+    </nav>
+
+    <a class="btn btn-small" href="#encomenda">Encomendar</a>
+
+    <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="hero-content">
+        <span class="eyebrow">CAFÉ DE BAIRRO • DESDE 2020</span>
+        <h1>Um café quentinho,<br><em>com gosto de casa.</em></h1>
+        <p>
+          Café coado, pão de queijo e bolos caseiros preparados
+          com carinho — para comer aqui ou encomendar.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn" href="#cardapio">Ver cardápio</a>
+          <a class="btn btn-outline" href="#encomenda">Fazer encomenda</a>
+        </div>
+
+        <div class="hero-note">
+          <span>✓</span>
+          <span>Encomendas limitadas a 5 bolos por dia</span>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Ilustração de café e bolo">
+        <div class="sun"></div>
+        <div class="cake cake-back"></div>
+        <div class="cake cake-front">
+          <div class="cake-top"></div>
+          <div class="cake-layer"></div>
+          <div class="cake-crumb crumb-1"></div>
+          <div class="cake-crumb crumb-2"></div>
+          <div class="cake-crumb crumb-3"></div>
+        </div>
+        <div class="coffee-cup">
+          <div class="coffee"></div>
+          <div class="steam steam-1"></div>
+          <div class="steam steam-2"></div>
+          <div class="handle"></div>
+        </div>
+        <div class="table-line"></div>
+      </div>
+    </section>
+
+    <section class="quick-info">
+      <div>
+        <span class="info-icon">☕</span>
+        <div><strong>Café coado na hora</strong><small>Todos os dias</small></div>
+      </div>
+      <div>
+        <span class="info-icon">🍰</span>
+        <div><strong>Bolos caseiros</strong><small>Por encomenda</small></div>
+      </div>
+      <div>
+        <span class="info-icon">📍</span>
+        <div><strong>De bairro</strong><small>Perto de você</small></div>
+      </div>
+    </section>
+
+    <section class="section" id="cardapio">
+      <div class="section-heading">
+        <span class="eyebrow">O QUE TEM POR AQUI</span>
+        <h2>Nosso cardápio</h2>
+        <p>Simples, gostoso e feito para lembrar café na casa da vó.</p>
+      </div>
+
+      <div class="menu-grid">
+        <article class="menu-card featured">
+          <div class="menu-emoji">🍰</div>
+          <div>
+            <span class="tag">CARRO-CHEFE</span>
+            <h3>Bolos caseiros</h3>
+            <p>Feitos sob encomenda, com aquele sabor de bolo recém-saído do forno.</p>
+            <strong>A partir de R$ 35</strong>
+          </div>
+        </article>
+
+        <article class="menu-card">
+          <div class="menu-emoji">☕</div>
+          <div>
+            <h3>Café coado</h3>
+            <p>Café fresquinho e passado na hora.</p>
+            <strong>R$ 5</strong>
+          </div>
+        </article>
+
+        <article class="menu-card">
+          <div class="menu-emoji">🧀</div>
+          <div>
+            <h3>Pão de queijo</h3>
+            <p>Quentinho, macio por dentro e douradinho por fora.</p>
+            <strong>R$ 6</strong>
+          </div>
+        </article>
+      </div>
+
+      <p class="disclaimer">* Valores ilustrativos. Substitua pelos preços reais da Marta.</p>
+    </section>
+
+    <section class="about section" id="sobre">
+      <div class="about-image">
+        <div class="about-card">
+          <span>☕</span>
+          <strong>6 anos</strong>
+          <small>fazendo café de bairro</small>
+        </div>
+      </div>
+      <div class="about-content">
+        <span class="eyebrow">A HISTÓRIA</span>
+        <h2>Pequeno no tamanho.<br>Grande no carinho.</h2>
+        <p>
+          O Café da Marta nasceu de uma vontade simples: servir um café
+          gostoso e ter sempre um bolo caseiro esperando por quem passa.
+        </p>
+        <p>
+          Hoje, os moradores do bairro, estudantes e o pessoal do comércio
+          por perto fazem parte dessa história.
+        </p>
+        <a class="text-link" href="#encomenda">Quero fazer uma encomenda →</a>
+      </div>
+    </section>
+
+    <section class="order section" id="encomenda">
+      <div class="section-heading">
+        <span class="eyebrow">SEM COMPLICAÇÃO</span>
+        <h2>Faça sua encomenda</h2>
+        <p>Escolha o bolo, informe a data e mande o pedido pelo WhatsApp.</p>
+      </div>
+
+      <form class="order-form" id="orderForm">
+        <div class="form-group">
+          <label for="name">Seu nome</label>
+          <input id="name" name="name" type="text" placeholder="Como podemos te chamar?" required>
+        </div>
+
+        <div class="form-group">
+          <label for="cake">Bolo</label>
+          <select id="cake" name="cake" required>
+            <option value="">Selecione um bolo</option>
+            <option value="Bolo de cenoura">Bolo de cenoura</option>
+            <option value="Bolo de chocolate">Bolo de chocolate</option>
+            <option value="Bolo de fubá">Bolo de fubá</option>
+            <option value="Bolo de milho">Bolo de milho</option>
+            <option value="Outro bolo">Outro bolo</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="date">Data</label>
+            <input id="date" name="date" type="date" required>
+          </div>
+
+          <div class="form-group">
+            <label for="quantity">Quantidade</label>
+            <select id="quantity" name="quantity" required>
+              <option value="1">1 bolo</option>
+              <option value="2">2 bolos</option>
+              <option value="3">3 bolos</option>
+              <option value="4">4 bolos</option>
+              <option value="5">5 bolos</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Observação <span>(opcional)</span></label>
+          <textarea id="message" name="message" rows="4" placeholder="Algum detalhe ou pedido especial?"></textarea>
+        </div>
+
+        <button class="btn btn-whatsapp" type="submit">
+          <span>☏</span> Enviar pedido pelo WhatsApp
+        </button>
+
+        <small class="form-help">Você será direcionado para o WhatsApp com a mensagem já preenchida.</small>
+      </form>
+    </section>
+
+    <section class="contact section" id="horario">
+      <div class="contact-card">
+        <span class="eyebrow">VENHA TOMAR UM CAFÉ</span>
+        <h2>Horário de funcionamento</h2>
+        <div class="hours">
+          <div><span>Segunda a sexta</span><strong>07h às 18h</strong></div>
+          <div><span>Sábado</span><strong>07h às 13h</strong></div>
+          <div><span>Domingo</span><strong>Fechado</strong></div>
+        </div>
+      </div>
+
+      <div class="contact-card location" id="localizacao">
+        <span class="eyebrow">ONDE FICA</span>
+        <h2>Passa para tomar um café.</h2>
+        <p>Rua Exemplo, 123<br>Bairro Centro • Sua cidade - BA</p>
+        <a class="text-link" href="https://www.google.com/maps" target="_blank" rel="noopener noreferrer">Ver no mapa →</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-logo">
+      <span class="logo-cup">☕</span>
+      <div><strong>Café da Marta</strong><small>feito com carinho</small></div>
+    </div>
+    <p>© 2026 Café da Marta. Um café de bairro, do jeitinho que a gente gosta.</p>
+    <a href="#inicio">Voltar ao topo ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
